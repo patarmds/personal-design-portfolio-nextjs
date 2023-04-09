@@ -12,9 +12,8 @@ function Home() {
     <>
       <NavBar />
       <Banner />
-      <Skills />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </>
   );

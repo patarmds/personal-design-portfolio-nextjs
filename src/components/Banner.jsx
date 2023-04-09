@@ -55,8 +55,9 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
               <div className="animate__animated animate__fadeIn">
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Arba,`} <span className="txt-rotate" data-rotate='[ "Illustrator Artist", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h1>{`Hi! I'm Mario Manalu,`} <span className="txt-rotate" data-rotate='[ "Illustrator Artist", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Welcome to the world of Mario Manalu, a multi-talented artist who specializes in illustration, web design, and UI/UX design. With a passion for creativity and a keen eye for detail, Mario brings a unique perspective to each project he undertakes.</p>
+                  <p>Explore Mario's portfolio to see his impressive body of work and discover how he can bring your creative vision to life.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>
           </Col>
